@@ -95,6 +95,7 @@ void initializeProgram (int cipherCode[], int arrSize){
 }
 
 void cipherGenerator (int arr[], int arrSize){
+    srand(time(0));
     for (int i = 0; i < arrSize; i++){
         arr[i] = rand() % 10;
     }
