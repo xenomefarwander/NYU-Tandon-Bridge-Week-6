@@ -27,6 +27,7 @@ the PIN number. */
 #include <iostream>
 #include <cstdlib>
 #include <cctype>
+#include <ctime>
 #include <cmath>
 using namespace std;
 

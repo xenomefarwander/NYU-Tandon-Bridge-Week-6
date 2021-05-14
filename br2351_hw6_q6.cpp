@@ -13,6 +13,7 @@ lower case), digits and spaces.
  */
 
 #include <iostream>
+#include <cctype>
 using namespace std;
 
 const int ARRAY_SIZE = 256;
